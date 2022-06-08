@@ -64,6 +64,7 @@ strong{
 }
 #nav.not_index_bg {
     height: 20rem;
+	width: 100%;
 }
 #nav {
     position: relative;
