@@ -7,8 +7,8 @@ body {
     background: #eee;
     color: #4c4948;
     font-size: 1rem;
-    font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft JhengHei", "MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
-    line-height: 2;
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	line-height: 2;
 }
 body {
     margin: 0;
@@ -117,13 +117,18 @@ h1 {
 #page{
     margin-top: 10px;
     width: 75%;
+	height: 100%;
+	padding: 20px 44px 44px;
     border-radius: 3px;
     background: #fff;
     box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06);
     transition: all .3s;
 }
-#page{
-    padding: 20px 44px 44px;
+#page .title{
+	margin: 1.5625rem auto;
+}
+.skillbox{
+	margin: 1.3865rem auto;
 }
 
 #aside_content {
@@ -340,7 +345,7 @@ aside_content .card-info .author-info__description {
 
 .productleft{
     float: left;
-    width: 50%;
+    width: 33%;
 }
 
 .show{
